@@ -1,0 +1,19 @@
+{
+    "categories": [
+      "Used Clothes", "E-waste", "Food", "Furniture", "Other"
+    ],
+    "conditions": [
+      "Used", "New", "Refurbhished", "Second Hand"
+    ],
+    "states": [
+      "Andhra Pradesh", "Bihar", "Delhi", "Goa", "Gujarat",
+      "Haryana", "Karnataka", "Kerala", "Maharashtra", "Punjab",
+      "Rajasthan", "Tamil Nadu", "Telangana", "Uttar Pradesh", "West Bengal"
+    ],
+    "cities": [
+      "Mumbai", "Delhi", "Bangalore", "Hyderabad", "Chennai",
+      "Kolkata", "Pune", "Ahmedabad", "Jaipur", "Surat",
+      "Lucknow", "Kanpur", "Nagpur", "Indore", "Patna"
+    ]
+  }
+  

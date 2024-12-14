@@ -1,0 +1,93 @@
+/* Home.css */
+
+/* General Styling */
+.resources-section {
+    background-color: #f9fafb;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  
+  /* Resource Cards */
+  .resource-card {
+    background-color: #ffffff;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  .resource-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .resource-card h3 {
+    color: #38a169;
+    font-size: 1.75rem;
+    font-weight: bold;
+  }
+  
+  .resource-card p {
+    color: #4a5568;
+    font-size: 1.125rem;
+  }
+  
+  .resource-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 2rem;
+  }
+  
+  .resource-table th, .resource-table td {
+    padding: 12px 15px;
+    border: 1px solid #e2e8f0;
+  }
+  
+  .resource-table th {
+    background-color: #f7fafc;
+    text-align: left;
+  }
+  
+  .resource-table tr:nth-child(even) {
+    background-color: #f7fafc;
+  }
+  
+  .resource-table td {
+    color: #2d3748;
+  }
+  
+  /* List Items */
+  .reuse-list {
+    padding-left: 2rem;
+    font-size: 1.125rem;
+    color: #4a5568;
+  }
+  
+  .reuse-list ul {
+    margin-top: 1rem;
+  }
+  
+  /* Scroll Animation */
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Responsive Design */
+  @media screen and (max-width: 768px) {
+    .resource-card {
+      padding: 1rem;
+    }
+  
+    .resource-table th, .resource-table td {
+      padding: 8px;
+    }
+  }
+  
